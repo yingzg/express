@@ -31,7 +31,7 @@ public class AdminPageController {
     private UserFeedbackService feedbackService;
 
     /**
-     * 仪表盘页面
+     * 仪表盘页面 提交修改
      */
     @RequestMapping("/dashboard")
     public String showDashboardPage(@AuthenticationPrincipal SysUser sysUser, ModelMap map) {
